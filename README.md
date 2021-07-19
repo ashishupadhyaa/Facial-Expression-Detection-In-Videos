@@ -2,7 +2,11 @@
 
 The project is to detect the facial expression of a person in a video. The main script draws the rectangle around the face of a person and detect the mood/expression of the person using facial expression of that person.
 
-The **Open-CV** module is used to draw and detect the position of the face of a person. The **Open-CV** module provides a *`haarcascade_frontalface_default.xml`* file which is used to detect the position of the face of a person in an image or in a video also.
+The **Open-CV** module is used to draw and detect the position of the face of a person. The **Open-CV** module provides a *`haarcascade_frontalface_default.xml`* file which is used to detect the position of the face of a person in an image or in a video also. You can download the file by typing the following line in terminal/CLI:
+
+```
+wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
+```
 
 I used simple **CNN with Pooling & Dense Layers** model to detect the expression of a person. The model is trained using the labeled data provided in the given [link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data). The **training accuracy** of the model is **68%** and the **test/val accuracy** of the model is **63%**.
 
