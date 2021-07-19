@@ -8,6 +8,8 @@ The **Open-CV** module is used to draw and detect the position of the face of a 
 wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
 ```
 
+Your file will be saved in the directory opened in CLI/terminal.
+
 I used simple **CNN with Pooling & Dense Layers** model to detect the expression of a person. The model is trained using the labeled data provided in the given [link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data). The **training accuracy** of the model is **68%** and the **test/val accuracy** of the model is **63%**.
 
 The script will use **Open-CV** module to read a video file and predict the expression of person. Some glimpse of the model working is as follows:
