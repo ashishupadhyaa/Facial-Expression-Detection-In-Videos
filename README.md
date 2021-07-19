@@ -8,7 +8,7 @@ I used simple **CNN with Pooling & Dense Layers** model to detect the expression
 
 The script will use **Open-CV** module to read a video file and predict the expression of person. Some glimpse of the model working is as follows:
 
-[Surprised_kid_image](facial_expr.png)
+![Surprised_kid_image](facial_expr.png)
 
 The required module to run the script is given in `requirements.txt` file. You can install the module by running the command in the CLI and run the script easily. The command to install required modules are as follows:(first install the vitualenv)
 
